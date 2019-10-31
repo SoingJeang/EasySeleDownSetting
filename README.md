@@ -2,6 +2,7 @@
 An easily download option for selenium's chrome, firefox and ie
 
 Use:
+```
 
 from selenium.webdriver import Ie
 from selenium.webdriver import Firefox
@@ -26,3 +27,5 @@ for iframe in iframes:
     driver.switch_to.frame(iframe)
     driver.find_element_by_partial_link_text("下载").click()
     driver.switch_to.default_content()
+    
+```
